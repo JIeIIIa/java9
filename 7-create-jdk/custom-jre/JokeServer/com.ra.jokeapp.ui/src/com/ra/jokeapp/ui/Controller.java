@@ -1,7 +1,6 @@
 package com.ra.jokeapp.ui;
 
 import com.ra.jokeserver.JokeServer;
-
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;

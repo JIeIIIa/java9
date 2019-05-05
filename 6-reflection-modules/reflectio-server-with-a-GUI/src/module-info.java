@@ -1,5 +1,3 @@
-import com.ra.jokeserver.JokeServer;
-
 module com.ra.jokeapp.ui {
     requires javafx.graphics;
     requires javafx.fxml;
