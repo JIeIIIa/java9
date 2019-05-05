@@ -32,12 +32,12 @@ public class ConfigurationPrinter {
     }
 
     public static void main(final String[] args) {
-    final Configuration configuration = Configuration.resolve(
-        ModuleFinder.of(Paths.get(args[0])),
-        List.of(Configuration.empty()),
-        ModuleFinder.ofSystem(),
-        List.of("io.vividcode.store.runtime")
-    );
-    new ConfigurationPrinter().printLayer(configuration);
+        final Configuration configuration = Configuration.resolve(
+                ModuleFinder.of(Paths.get(args[0])),
+                List.of(Configuration.empty()),
+                ModuleFinder.ofSystem(),
+                List.of("io.vividcode.store.runtime")
+        );
+        new ConfigurationPrinter().printLayer(configuration);
     }
 }

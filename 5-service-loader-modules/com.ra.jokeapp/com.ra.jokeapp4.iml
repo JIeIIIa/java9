@@ -8,5 +8,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="com.ra.jokeserver4" />
+    <orderEntry type="module" module-name="com.ra.jokeserver.programmer3" />
+    <orderEntry type="module" module-name="com.ra.jokeserver.kid3" />
   </component>
 </module>
