@@ -15,15 +15,5 @@
         <module name="filestore" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="common" target="11" />
-      <module name="common.persistence" target="11" />
-      <module name="filestore" target="11" />
-      <module name="java9-classloader" target="11" />
-      <module name="parent" target="11" />
-      <module name="product" target="11" />
-      <module name="product.persistence" target="11" />
-      <module name="runtime" target="11" />
-    </bytecodeTargetLevel>
   </component>
 </project>

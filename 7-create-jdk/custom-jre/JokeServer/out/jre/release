@@ -1,2 +1,0 @@
-JAVA_VERSION="9.0.1"
-MODULES="java.base java.logging java.xml java.prefs java.datatransfer java.desktop jdk.jsobject java.scripting com.ra.jokeserver com.ra.jokeserver.kid javafx.base javafx.graphics javafx.fxml com.ra.jokeserver.programmer javafx.controls com.ra.jokeapp.ui"
