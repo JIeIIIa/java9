@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="runtime" />
+        <module name="product.persistence" />
+        <module name="product" />
+        <module name="common" />
+        <module name="common.persistence" />
+        <module name="java9-classloader" />
+        <module name="filestore" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common" target="11" />
+      <module name="common.persistence" target="11" />
+      <module name="filestore" target="11" />
+      <module name="java9-classloader" target="11" />
+      <module name="parent" target="11" />
+      <module name="product" target="11" />
+      <module name="product.persistence" target="11" />
+      <module name="runtime" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
